@@ -1,0 +1,16 @@
+SELECT last_name,salary
+FROM employees
+ORDER BY salary ASC;
+SELECT last_name,salary
+FROM employees
+ORDER BY salary DESC;
+SELECT last_name,salary,department_id
+FROM employees
+ORDER BY salary ASC,department_id DESC;
+SELECT * FROM employees;
+SELECT employee_id,last_name
+FROM employees
+LIMIT 31,2;
+SELECT employee_id,last_name
+FROM employees
+LIMIT 9,4;
